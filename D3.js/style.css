@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(assets/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   height: 100vh;
+    /*opacity: .2; */
+}
+
+#nav {
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 5px;
+    /* background-color:whitesmoke ; */
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.dropdown button {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+}
+.display-charts{
+    width: 100vw;
+    
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+    margin-top: 20px;
+ 
+}
+.cards {
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(109, 160, 167);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+
+}
